@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CHIRAG V | Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@600&family=Inter:wght@400;500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Particle BG (canvas) -->
+  <canvas id="particle-canvas"></canvas>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">CHIRAG V</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger-menu" aria-label="Toggle Navigation">
+        <i class="fas fa-bars open"></i>
+        <i class="fas fa-times close"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="hero-img-frame">
+        <img src="cv.jpeg" alt="CHIRAG V" class="hero-img"/>
+      </div>
+      <h1 class="hero-name">CHIRAG V</h1>
+      <h2 class="hero-role">Entry-Level Software Developer | Python | SQL | JavaScript | Passion for Problem Solving</h2>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section animate-in">
+      <div class="card">
+          <h2>About Me</h2>
+          <p class="about-bio">
+            A skilled and motivated Computer Science Engineer with a strong passion for software development, problem-solving, and building efficient systems. Seeking an opportunity to apply technical knowledge, contribute to innovative projects, and enhance professional skills by working with modern tools and technologies.
+          </p>
+          <div class="skills-badges">
+            <span class="badge">Python</span>
+            <span class="badge">Data Structures and Algorithms</span>
+            <span class="badge">Full Stack Development</span>
+            <span class="badge">Blockchain</span>
+          </div>
+      </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section animate-in">
+      <div class="card">
+          <div class="resume-header">
+            <h2>Resume</h2>
+            <a href="Chirag.pdf" download class="btn-accent"><i class="fas fa-download"></i>Download Resume</a>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-title">B.E. Computer Science and Engineering</span>
+                <span class="timeline-date">2022–2026</span>
+                <p>Navkis College of Engineering, HSN (CGPA: 7.82)</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-title">Class XII Science</span>
+                <span class="timeline-date">2020–2022</span>
+                <p>MASVS GURUKULA PU College, MYS (62.5%)</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-title">Class X</span>
+                <span class="timeline-date">2019–2020</span>
+                <p>St Joseph School, CPT (80%)</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section animate-in">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Medical Data Encryption</h3>
+        <p>A secure and privacy-focused system for protecting medical records using cybersecurity and encryption techniques, ensuring patient data confidentiality, integrity, and secure access. The system prevents unauthorized access and maintains the safety and reliability of sensitive healthcare information.</p>
+        <a href="https://github.com/chirag531/Medical-Data-Encryption.git" target="_blank" class="btn-link">View Code</a>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Modern, responsive portfolio site with animated effects and clean design (this site!).</p>
+        <a href="https://github.com/chirag531/Portfolio.git" target="_blank" class="btn-link">View Code</a>
+      </div>
+      <div class="project-card">
+        <h3>Audit Universe Tool</h3>
+        <p>A smart web-based system for managing and tracking audit-related information using full stack technologies, ensuring efficient data organization, monitoring, and reporting. The system helps automate audit processes, improve accuracy, and provide secure access to audit records for better management.</p>
+        <a href="https://github.com/chirag531/Audit-Universe-Tool.git" target="_blank" class="btn-link">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section card animate-in">
+    <h2>Contact Me</h2>
+    <form class="contact-form" autocomplete="off">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required/>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required/>
+      </div>
+      <div class="form-group">
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn-accent">Send Message</button>
+      <span class="form-success" style="display:none;">Thank you! I'll be in touch.</span>
+    </form>
+    <div class="social-links">
+      <a href="chiragg531531@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/chirag531" class="social-icon" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/chirag-v-531v/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bt5D50n%2FLQFOGJUQN7S6%2BiQ%3D%3D" class="social-icon" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+  
+  <footer>
+    &copy; 2026 Chirag V. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
