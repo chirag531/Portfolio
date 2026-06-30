@@ -1,5 +1,5 @@
 # Portfolio Website
-
+![image alt](https://github.com/chirag531/Portfolio/blob/main/cv.jpeg)
 ## Overview
 This portfolio website showcases the skills and projects of Chirag V, an entry-level software developer. The site features a modern design with smooth animations and a responsive layout, making it accessible on various devices.
 
